@@ -5,4 +5,6 @@
 
 void positive_or_negative(int i);
 
+	printf("Infinite loop incoming :(\n");
+
 #endif /* MAIN_H */
