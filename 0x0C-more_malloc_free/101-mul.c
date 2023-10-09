@@ -42,7 +42,6 @@ void errors(void)
 int main(int argc, char *argv[])
 {
 	int _strlen(char *s);
-	
 	char *s1, *s2;
 	int len1, len2, len, i, carry, digit1, digit2, *result, a = 0;
 
@@ -79,7 +78,7 @@ int main(int argc, char *argv[])
 			_putchar(result[i] + '0');
 	}
 	if (!a)
-		_putchar('0');
+	_putchar('0');
 	_putchar('\n');
 	free(result);
 	return (0);
