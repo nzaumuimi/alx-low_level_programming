@@ -1,4 +1,4 @@
-#include <stdio.h>
+:w#include <stdio.h>
 #include "lists.h"
 
 /**
