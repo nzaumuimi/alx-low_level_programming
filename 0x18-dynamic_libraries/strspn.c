@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * _strspn - enter code
+ * my_strspn - enter code
  * @s: input
  * @accept: input
  * Return: Always 0 when successful
  */
-unsigned int _strspn(char *s, char *accept)
+unsigned int my_strspn(char *s, char *accept)
 {
 	unsigned int n = 0;
 	int r;
